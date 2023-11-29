@@ -10,6 +10,6 @@ int main()
         scanf("%d", &a[i]);
 
     //print the elements of the array in reverse
-    for(i = 5; i >= 0; i--)
-        printf("Array element at %d is %d\n", i, a[i]);
+    for(i = 4; i >= 0; i--)
+        printf("Array element in reverse at index %d is %d\n", i, a[i]);
 }

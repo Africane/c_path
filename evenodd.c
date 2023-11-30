@@ -19,9 +19,15 @@ int main()
     for (i = 0; i < 10; i++)
     {
         if (a[i] % 2 == 0)
-            printf("Element %d is an even number\n", a[i]);
+        {
+            even++;
+            printf("Element %d is an even number, even numbers are %d in total\n", a[i], even);
+        }
         else
-            printf("The element %d is odd\n", a[i]);
+        {
+            odd++;
+            printf("The element %d is odd, odd numbers are %d in total\n", a[i], odd);
+        }
     }
 
     return 0;
